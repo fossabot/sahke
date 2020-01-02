@@ -1,7 +1,7 @@
 //! A dispatcher based on filters.
 
-use futures::StreamExt;
 use either::Either;
+use futures::StreamExt;
 
 use crate::{
     dispatching::{filters::Filter, ErrorHandler, Handler, Updater},
